@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ESV</title>
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+
+<body>
+  <div id="app">
+    <div class="top-half">
+      <a><img src="/assets/sun.png" class="sun" alt="the LORD make his face to shine upon you and be gracious to you" /></a>
+      <h1>ESV Bible Search</h1>
+      <form>
+        <input name="prompt" rows="1" cols="1" placeholder="Search a word or phrase..."></input>
+        <div>
+          <button type="submit">submit</button>
+        </div>
+      </form>
+    </div>
+    <div class="bottom-half">
+      <div id="verse_container"></div>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
