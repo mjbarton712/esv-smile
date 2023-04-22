@@ -48,7 +48,8 @@ const handleSubmit = async (e: Event) => {
 
   //fetch data from server for the verse container
   const response = await fetch(
-    `http://localhost:3000/api/esv/${promptText}`, 
+	`https://esv-smile.onrender.com/api/esv/${promptText}`,
+    //`http://localhost:3000/api/esv/${promptText}`, 
     {
       method: 'GET',
       headers: {
