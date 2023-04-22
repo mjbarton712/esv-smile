@@ -24,10 +24,11 @@ body {
   background-position: center;
   box-shadow: 0 0 70px 70px var(--slate) inset;
   margin: 0;
-  display: flex;
+  display: fixed;
   --place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  max-width: 100%;
 }
 
 h1 {
@@ -37,7 +38,7 @@ h1 {
 }
 
 #app {
-  max-width: 1280px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -97,7 +98,7 @@ button:focus-visible {
 
 #verse_container {
   font-size: 10;
-  width: 1000px;
+  width: 80%;
   margin: 0 auto;
   padding: 2rem;
   text-align: left;
